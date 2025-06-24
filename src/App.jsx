@@ -14,7 +14,7 @@ function App() {
           width: '100vw',
        }}>
         <Navbar />
-        <Card/>
+        <Card name="theartisticwing"/>
        </div>
     </>
   )
