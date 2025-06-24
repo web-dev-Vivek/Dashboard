@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import img from './assets/bg2.jpg'
 import Navbar from './components/Navbar.jsx'
+import Card from './components/Card.jsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           width: '100vw',
        }}>
         <Navbar />
+        <Card/>
        </div>
     </>
   )
