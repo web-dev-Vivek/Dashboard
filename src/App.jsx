@@ -24,16 +24,16 @@
 
 
 
-  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
     <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card}  />
   </div>
 
-  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" />
+  <div className="absolute top-[40vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card1} />
   </div>
 
-  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" />
+  <div className="absolute top-[50vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card2} />
   </div>
 </div>
 
