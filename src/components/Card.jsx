@@ -2,13 +2,13 @@ import React from 'react';
 import arrow from '../assets/arrow.png';
 import vite from '../assets/Vite.png';
 
-function Card(project) {
+function Card(project , link , image) {
   return (
-    <div className="min-w-70 rounded-xl overflow-hidden shadow-xl relative bg-white/10 backdrop-blur-md border border-white/20 text-white">
+    <div className="min-w-70 rounded-xl overflow-hidden shadow-xl relative bg-white/10 backdrop-blur-md border border-white/10 text-white">
       <div className="w-full h-48 border-5 rounded-t-xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/20">
         <img
-          className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+          className="w-full h-48 object-cover hover:scale-110 transition-transform duration-100"
+          src={project.image}
           alt="Property"
         />
       </div>
@@ -21,7 +21,7 @@ function Card(project) {
           <p className="text-black font-semibold">View On Github</p>
           <img className="w-5" src={arrow} alt="arrow" />
           <a
-            href="https://github.com/web-dev-Vivek/theartisticwing#"
+            href={project.link}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -3,6 +3,9 @@
   import Navbar from './components/Navbar.jsx'
   import Card from './components/Card.jsx'
   import Image from './components/Image.jsx'
+  import card from './assets/netflix.png'
+  import card1 from './assets/sundown.png'
+  import card2 from './assets/todoist.png'
 
   function App() {
     return (
@@ -22,7 +25,15 @@
 
 
   <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" />
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card}  />
+  </div>
+
+  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" />
+  </div>
+
+  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" />
   </div>
 </div>
 
