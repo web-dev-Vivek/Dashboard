@@ -11,7 +11,7 @@ function Navbar() {
       <div className="flex items-center"><img width="240" height="48" className="font-white" src="https://img.icons8.com/fluency-systems-regular/48/contact-card.png" alt="contact-card"/>CONTACT</div>
       <div className="flex items-center"><img width="2401" height="50" className="font-white" src="https://img.icons8.com/ios/50/project.png" alt="project"/>PROJECTS</div>
       <div className="flex items-center"><img width="2401" height="50" className="font-white" src="https://img.icons8.com/ios/50/under-computer.png" alt="under-computer"/>WORKING ON....</div>
-    </div>1
+    </div>
     </>
   )
 }
