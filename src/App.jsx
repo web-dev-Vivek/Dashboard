@@ -6,6 +6,7 @@
   import card from './assets/netflix.png'
   import card1 from './assets/sundown.png'
   import card2 from './assets/todoist.png'
+  import card3 from './assets/theartisticwing.png'
 
   function App() {
     return (
@@ -24,16 +25,20 @@
 
 
 
-  <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card}  />
+  <div className="absolute top-[29vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card3}  />
   </div>
 
-  <div className="absolute top-[40vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card1} />
+  <div className="absolute top-[39vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="Todoist" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card2} />
   </div>
 
-  <div className="absolute top-[50vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="theartisticwing" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card2} />
+  <div className="absolute top-[49vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="Netflix-Clone" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card} />
+  </div>
+
+  <div className="absolute top-[59vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+    <Card name="Sundown" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card1} />
   </div>
 </div>
 
