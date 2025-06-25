@@ -4,7 +4,7 @@ import vite from '../assets/Vite.png';
 
 function Card(project) {
   return (
-    <div className="max-w-70 rounded-xl overflow-hidden shadow-xl relative bg-white/10 backdrop-blur-md border border-white/20 text-white">
+    <div className="min-w-70 rounded-xl overflow-hidden shadow-xl relative bg-white/10 backdrop-blur-md border border-white/20 text-white">
       <div className="w-full h-48 border-5 rounded-t-xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/20">
         <img
           className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"

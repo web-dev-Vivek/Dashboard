@@ -1,8 +1,8 @@
   import './App.css'
-  import img from './assets/bg2.jpg'
    import img1 from './assets/bgblur.jpg'
   import Navbar from './components/Navbar.jsx'
   import Card from './components/Card.jsx'
+  import Image from './components/Image.jsx'
 
   function App() {
     return (
@@ -10,10 +10,16 @@
         className="w-[100vw] h-[100vh] bg-cover bg-no-repeat relative"
         style={{ backgroundImage: `url(${img1})` }}
       >
-        {/* Wrap Navbar + Card in a group */}
 
-        <div className="group inline-block z-index:99 relative">
-  <Navbar />
+        {/* Wrap Navbar + Card in a group */}
+        <div className="flex justify-center items-center h-full absolute left-[30vw] bottom-20">
+              <Image />
+        </div>
+        <div className="group inline-block relative">
+            <Navbar />
+
+
+
 
   <div className="absolute top-[30vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
     <Card name="theartisticwing" />
