@@ -2,26 +2,26 @@ import React from 'react';
 import arrow from '../assets/arrow.png';
 import vite from '../assets/Vite.png';
 
-function Card(project , link , image) {
+function Card({ name, link, image }) {
   return (
     <div className="min-w-70 rounded-xl overflow-hidden shadow-xl relative bg-white/30 backdrop-blur-md border border-white/10 text-white">
       <div className="w-full h-48 border-5 rounded-t-xl overflow-hidden bg-black/20 backdrop-blur-md border border-white/5">
         <img
           className="w-full h-48 object-contain hover:scale-110 transition-transform duration-100"
-          src={project.image}
+          src={image}
           alt="Property"
         />
       </div>
       <div className=" pr-4 pl-4">
         <div className="flex text-black text-xl font-bold justify-center items-center">
-          {project.name}
+          {name}
         </div>
 
         <div className="w-full h-10 flex justify-center gap-5 items-center ">
           <p className="text-black font-semibold">View On Github</p>
           <img className="w-5" src={arrow} alt="arrow" />
           <a
-            href={project.link}
+            href={link}
             target="_blank"
             rel="noopener noreferrer"
           >

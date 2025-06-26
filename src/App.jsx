@@ -1,4 +1,4 @@
-  import './App.css'
+import './App.css'
    import img1 from './assets/bgblur.jpg'
   import Navbar from './components/Navbar.jsx'
   import Card from './components/Card.jsx'
@@ -7,6 +7,8 @@
   import card1 from './assets/sundown.png'
   import card2 from './assets/todoist.png'
   import card3 from './assets/theartisticwing.png'
+  import Img from './assets/bg2.jpg';
+
 
   function App() {
     return (
@@ -17,7 +19,7 @@
 
         {/* Wrap Navbar + Card in a group */}
         <div className="flex justify-center items-center h-full absolute left-[30vw] bottom-20">
-              <Image />
+              <Image image={Img} />
         </div>
         <div className="group inline-block relative">
             <Navbar />
@@ -30,15 +32,15 @@
   </div>
 
   <div className="absolute top-[39vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="Todoist" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card2} />
+    <Card name="Todoist" link="https://github.com/web-dev-Vivek/Today-Todoist" image={card2} />
   </div>
 
   <div className="absolute top-[49vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="Netflix-Clone" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card} />
+    <Card name="Netflix-Clone" link="https://github.com/web-dev-Vivek/Netflix_clone" image={card} />
   </div>
 
   <div className="absolute top-[59vh] left-[10vw] opacity-0 scale-95 group-hover:opacity-100 hover:z-[9] group-hover:scale-100 transition-all duration-150 ease-in-out pointer-events-none group-hover:pointer-events-auto">
-    <Card name="Sundown" link="https://github.com/web-dev-Vivek/theartisticwing#" image={card1} />
+    <Card name="Sundown" link="https://github.com/web-dev-Vivek/Sundown" image={card1} />
   </div>
 </div>
 

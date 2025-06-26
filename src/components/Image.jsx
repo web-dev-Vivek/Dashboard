@@ -1,11 +1,11 @@
 import React from 'react';
-import Img from '../assets/bg2.jpg';
 
-function Image() {
+
+function Image({ image }) {
   return (
     <div className="w-full max-w-[80vw] mx-10 p-4">
       <img
-        src={Img}
+        src={image}
         alt="Background"
         className="w-full h-auto rounded-[2vw]  object-cover"
       />
